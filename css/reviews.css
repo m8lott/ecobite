@@ -1,0 +1,110 @@
+.reviews {
+    width: 100%;
+    margin-top: 140px;
+}
+.reviews__container {
+    padding: 0 35px;
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    flex-direction: column;
+}
+.reviews__title {
+    text-align: center;
+    max-width: 600px;
+}
+.reviews__items {
+    width: 100%;
+    position: relative;
+}
+.swiper-wrapper {
+    display: flex;
+    align-items: center;
+}
+.swiper-button-next,
+.swiper-button-prev {
+    color: white;
+    outline: none;
+}
+
+
+.swiper-pagination-bullet {
+    
+    background-color: white
+}
+.testimonial-box {
+    position: relative;
+    width: 500px;
+    height: 300px;
+}
+
+
+
+
+
+.testimonial {
+    display: grid;
+    grid-template-rows: 1.3fr 0.7fr;
+    box-shadow: 0 0 5px rgba(0, 0, 0, .5);
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+    padding: 10px 20px;
+    position: relative;
+}
+
+.fas {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 10px;
+    font-size: 25px;
+    color: #222;
+}
+
+.testimonial-text {
+    font-size: 16px;
+    line-height: 25px;
+    text-align: center;
+    padding: 25px 15px;
+    width: 100%;
+}
+
+.testimonial-user {
+    display: flex;
+    align-items: center;
+}
+
+.user-img {
+    box-shadow: 0 0 10px rgba(0, 0, 0, .5);
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+
+.user-info {
+    margin: 0 20px;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+}
+
+.user-name {
+    font-weight: 800;
+}
+
+.user-job-details {
+    margin: 5px 0 0 0;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+
+.line {
+    position: absolute;
+    width: 2px;
+    height: 100%;
+    background: #000;
+    left: 50%;
+    top: 0;
+    transform: translateX(-50%);
+}

@@ -1,0 +1,38 @@
+.location {
+    width: 100%;
+    margin-top: 150px;
+}
+.location__container {
+    padding: 0 35px;
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    color: black;
+    @media screen and (max-width: 992px) {
+        flex-direction: column;
+    }
+}
+.location__right {
+    width: 100%;
+}
+.location__left {
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+}
+
+.location__item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.location__item img {
+    width: 30px;
+}
+
+.location__item a {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 25.6px;
+    color: black;
+}

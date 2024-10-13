@@ -1,0 +1,40 @@
+.catalog {
+    width: 100%;
+    margin-top: 180px;
+}
+.catalog__container {
+    padding: 0 35px;
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    color: black;
+    @media screen and (max-width: 992px) {
+        flex-direction: column;
+    }
+}
+.catalog__left {
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+}
+.catalog__title h1{
+    font-size: 46px;
+    font-weight: 600;
+    line-height: 59.8px;
+    max-width: 600px;
+    @media screen and (max-width: 574px) {
+        font-size: 30px;
+        line-height: 35px;
+    }
+}
+
+.catalog__desc p{
+    font-size: 16px;
+    line-height: 22px;
+    max-width: 600px;
+}
+.catalog__img img{
+    width: 100%;
+    border-radius: 10px;
+    max-width: 700px;
+}

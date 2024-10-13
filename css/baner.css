@@ -1,0 +1,89 @@
+.baner {
+    width: 100vw;
+    position: relative;
+    left: 50%;
+    right: 50%;
+    margin-left: -50vw;
+    margin-right: -50vw;
+    overflow: hidden;
+}
+
+.baner__container {
+    padding: 150px 35px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-position: center 15%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    animation: changeBackground 15s infinite;
+}
+
+
+@keyframes changeBackground {
+    0% {
+        background-image: linear-gradient(10.93deg, #141414 10.18%, rgba(9, 18, 66, 0.2) 90.92%),
+        url('../assets/img/baner1.jpeg');
+    }
+    33% {
+        background-image: linear-gradient(10.93deg, #141414 10.18%, rgba(9, 18, 66, 0.2) 90.92%),
+        url('../assets/img/baner2.jpeg');
+    }
+    66% {
+        background-image: linear-gradient(10.93deg, #141414 10.18%, rgba(9, 18, 66, 0.2) 90.92%),
+        url('../assets/img/baner3.jpeg');
+    }
+    100% {
+        background-image: linear-gradient(10.93deg, #141414 10.18%, rgba(9, 18, 66, 0.2) 90.92%),
+        url('../assets/img/baner1.jpeg');
+    }
+}
+
+.baner__title h1 {
+    font-size: 46px;
+    font-weight: 600;
+    line-height: 59.8px;
+    text-align: center;
+    max-width: 600px;
+}
+
+@media screen and (max-width: 574px) {
+    .baner__title h1 {
+        font-size: 30px;
+        line-height: 35px;
+    }
+}
+
+.baner__desc p {
+    font-size: 20px;
+    line-height: 27px;
+    max-width: 600px;
+}
+
+.baner__btn {
+    margin-top: 40px;
+}
+
+.baner__btn a {
+    display: block;
+    padding: 20px 50px;
+    border-radius: 10px;
+    background-color: #172D13;
+    text-align: center;
+    font-size: 16px;
+    line-height: 18.75px;
+    border: 1px solid #172D13;
+    transition: 0.5s;
+    cursor: pointer;
+    margin-top: 20px;
+    color: rgba(255, 255, 255, 1);
+}
+
+.baner__btn a:hover {
+    color: black;
+    background-color: white;
+}
